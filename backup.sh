@@ -1,6 +1,6 @@
-# sudo nano setup_create_backup.sh
-# bash setup_create_backup.sh
-# rm -r /root/setup_create_backup.sh
+# sudo nano backup.sh
+# bash backup.sh
+# rm -r /root/backup.sh
 # backs up all wordpress websites on a server in location /var/www/ 
 
 #!/bin/bash
