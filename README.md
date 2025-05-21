@@ -14,15 +14,8 @@ This repository provides automated solutions for backing up and restoring WordPr
 - Verifies database backup integrity
 - Supports multiple websites in a single backup run
 
-## Scripts
-
-- `backup_wordpress.sh`: Backs up all WordPress websites on a server in the `/var/www/` directory.
-- `backup_postgres.sh`: Creates a binary dump of the PostgreSQL database.
-- `transfer_all.sh`: Transfers the backup files to a remote server using `rsync`. It also creates the backup directory on the destination server if it doesn't exist.
-- `restore_wordpress.sh`: Restores WordPress websites from backup files.
-- `restore_postgres.sh`: Restores PostgreSQL databases from backup files.
-- `README.md`: Contains the original README file.
-- `example/: Previous versions.
+## If you need to install wordpress on LAMP use below script
+https://github.com/kadavilrahul/install_wordpress_on_lamp
 
 ## Prerequisites
 
