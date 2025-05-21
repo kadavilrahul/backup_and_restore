@@ -4,7 +4,14 @@
 DB_NAME="your_db"
 DB_USER="your_user"
 DB_PASS="your_password"  # Change this to a secure password
-DUMP_FILE="/website_backups/postgres/products_db_20250316_144906.dump"
+# Find the most recent dump file
+DUMP_FILE=$(find /website_backups/postgres -name "*.dump" -type f -printf '%T+ %p\n' | sort -r | head -n 1 | awk '{print $2}')
+
+# Check if a dump file was found
+if [ -z "$DUMP_FILE" ]; then
+  echo "No dump file found in /website_backups/postgres"
+  exit 1
+fi
 
 # Update system packages
 echo "Updating system packages..."

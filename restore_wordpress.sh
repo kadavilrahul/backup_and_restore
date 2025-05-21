@@ -9,6 +9,8 @@
 # Configuration
 WWW_PATH="/var/www"
 BACKUP_DIR="/website_backups"
+
+
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 LOG_FILE="/var/log/website_restore_${TIMESTAMP}.log"
 
