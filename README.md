@@ -41,6 +41,16 @@ Domain: example.com
 Database: example_db
 ```
 
+### Setup and Installation
+Linux:
+(Run these commands on Linux terminal to get started)
+
+Git clone and enter repository folder
+
+```bash
+git clone https://github.com/kadavilrahul/browser-use-shell.git
+```
+
 ## Backup Process
 
 1. **Directory Setup**
