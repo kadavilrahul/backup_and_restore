@@ -48,7 +48,12 @@ Linux:
 Git clone and enter repository folder
 
 ```bash
-git clone https://github.com/kadavilrahul/browser-use-shell.git
+git clone https://github.com/kadavilrahul/backup_and_restore.git
+```
+Run the script as a user with sufficient permissions:
+
+```bash
+bash backup.sh
 ```
 
 ## Backup Process
@@ -114,12 +119,5 @@ The script automatically maintains backup storage by:
 - Database credentials file should be properly secured
 - Script requires appropriate sudo permissions for PostgreSQL operations
 
-## Usage
-
-Run the script as a user with sufficient permissions:
-
-```bash
-bash backup.sh
-```
 
 It's recommended to schedule this script using cron for regular backups.
