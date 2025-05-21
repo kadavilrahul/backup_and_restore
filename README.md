@@ -58,7 +58,7 @@ Linux:
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/kadavilrahul/backup_and_restore.git
+    git clone https://github.com/kadavilrahul/wordpress_backup_migrate_and_restore.git
     ```
 
 2.  Navigate to the repository directory:
@@ -88,7 +88,7 @@ Linux:
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/kadavilrahul/backup_and_restore.git
+    git clone https://github.com/kadavilrahul/wordpress_backup_migrate_and_restore.git
     ```
 
 2.  Navigate to the repository directory:
