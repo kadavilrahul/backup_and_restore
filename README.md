@@ -50,7 +50,10 @@ Git clone and enter repository folder
 ```bash
 git clone https://github.com/kadavilrahul/backup_and_restore.git
 ```
-Run the script as a user with sufficient permissions:
+
+```bash
+cd backup_and_restore
+```
 
 ```bash
 bash backup.sh
